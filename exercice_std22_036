@@ -1,0 +1,98 @@
+0)    password:bandit0 
+
+1)      -commande : cat readme :
+	-password: NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+	
+2)   commande: cat ./-
+     password: rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
+
+3) commande: cat 'spaces in this filename'
+   password: aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
+   
+4) commande: cd inhere
+             ls -al
+             cat .hidden         
+   password:2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
+   
+5) commande: cd inhere
+	     file ./*
+	     cat ./-file07
+   password:lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
+   
+6) commande: cd inhere
+	     find -size 1033c
+	     cat ./maybehere07/.file2
+   password: P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+   
+7) commande:find / -user bandit7 -group bandit6 -size 33c
+            cat /var/lib/dpkg/info/bandit7.password
+   password:z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
+   
+8) commande:ls
+            cat data.txt
+            grep "millionth" data.txt
+   password:TESKZC0XvTetK0S9xNwm25STk5iWrBvP
+   
+9) commande: ls
+ 	     sort data.txt | uniq -u
+   password:EN632PlfYiZbn3PhVK3XOGSlNInNE00t
+
+   
+10) commande:ls
+             strings data.txt | grep "===="
+   password:G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
+   
+11) commande:ls
+             cat data.txt | base64 -d
+    password:6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
+    
+12) commande:ls
+             cat data.txt | tr '[A-Za-z]' '[N-ZA-Mn-za-m]'
+    password:JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
+    
+13) commande:ls -al
+             mkdir /tmp/newfolder
+             cp data.txt /tmp/newfolder
+             cd /tmp/newfolder
+              ls
+              file data.txt
+              ls -al
+              xxd -r data.txt data1
+              ls
+              file data1
+              mv data1 data2.gz
+              ls
+              gzip -d data2.gz
+              ls
+              file data2
+              ls
+              mv data2 data3.bz2
+              ls
+              file data3.bz2 
+              bzip2 -d data3.bz2
+              ls
+              file data3
+              ls
+              file data3
+               mv data3 data4.gz
+               ls
+      
+               file data4
+               tar -xvf data4
+               file data5.bin 
+               tar -xvf data5.bin
+               file data6.bin
+               mv data6.bin data7.bz2
+               ls
+               file data7.bz2
+               bzip2 -d data7.bz2
+               ls
+               file data7
+               tar -xvf data7
+               mv data8.bin data9.gz
+               gzip -d data9.gz 
+               ls
+               file data9
+               cat data9   
+    password:
+    
